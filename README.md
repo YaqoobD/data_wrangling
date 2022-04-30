@@ -28,25 +28,26 @@ The data assessing was divided into two-part Quality and Tidiness Issues.
 As I have investigated the dataset I have fine lots of quality issues, that I must correct before
 making our analysis and visualization.
 
-• As per the project requirements; only original ratings (no retweets) that have images should be included.
-• Columns of retweeted_status_id and its related data have entries which not part of our analysis.
-• Inaccurate data in name 'a' represented 55 times.
-• Inaccurate data in rating_nominator and df_denominator.
-• Null values reprsened as "None" in columns doggo, floofer, pupper, puppo.
-• Invalid dtype in timestamp represented as object type.
-• Column tweet_id represented as int64 across all data set.
-• Columns of predictions have lables represented as letters.
-• Column 'p1_dog' have 543 false prediction, p2_dog have 522 false prediction, p3_dog have 576 false prediction.
-• Column 'p1' have invalid data like(china_cabinet, shield, orange, walking_stick,...etc).
-• Column 'p2' have invalid data like(ice_lolly, Japanese_spaniel, china_cabinet,necklace,...etc).
-• Column 'p3' have invalid data like(kimono, cab, axolotl, passenger_car, tripod,grocery_store,...etc).
+* As per the project requirements; only original ratings (no retweets) that have images should be included.
+* Columns of retweeted_status_id and its related data have entries which not part of our analysis.
+* Inaccurate data in name 'a' represented 55 times.
+* Inaccurate data in rating_nominator and df_denominator.
+* Null values reprsened as "None" in columns doggo, floofer, pupper, puppo.
+* Invalid dtype in timestamp represented as object type.
+* Column tweet_id represented as int64 across all data set.
+* Columns of predictions have lables represented as letters.
+* Column 'p1_dog' have 543 false prediction, p2_dog have 522 false prediction, p3_dog have 576 false prediction.
+* Column 'p1' have invalid data like(china_cabinet, shield, orange, walking_stick,...etc).
+* Column 'p2' have invalid data like(ice_lolly, Japanese_spaniel, china_cabinet,necklace,...etc).
+* Column 'p3' have invalid data like(kimono, cab, axolotl, passenger_car, tripod,grocery_store,...etc).
 
 ### Tidiness Issues:
-• Tidiness issue that had been taken care of were as follows:
-• Variable dog stages have four columns. df_2:
-• Variable prediction have three columns. df_3:
-• Table df3_clean have same observation unit that in df1_clean.
-• Column name id in stead of tweet_i.
+
+* Tidiness issue that had been taken care of were as follows:
+* Variable dog stages have four columns. df_2:
+* Variable prediction have three columns. df_3:
+* Table df3_clean have same observation unit that in df1_clean.
+* Column name id in stead of tweet_i.
 
 ## Data Cleaning
 
